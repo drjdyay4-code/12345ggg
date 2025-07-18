@@ -4621,11 +4621,11 @@ function library:CreateSettingsTab(menu)
     local mainSection = settingsTab:AddSection('Main', 1);
     local creditsSection = settingsTab:AddSection('Credits', 2);
     creditsSection:AddSeparator({text = 'Owners/Developers'});
-    creditsSection:AddText({text = "xz#1111"})
-    creditsSection:AddText({text = "goof#1000"})
+    creditsSection:AddText({text = "luabit"})
+    creditsSection:AddText({text = "Soviet"})
     creditsSection:AddSeparator({text = 'Helpers'});
-    creditsSection:AddText({text = "encode#9999"})
-    creditsSection:AddText({text = "Vault#5434"})
+    creditsSection:AddText({text = "Dexfer"})
+    creditsSection:AddText({text = "7even"})
 
 
     configSection:AddBox({text = 'Config Name', flag = 'configinput'})
@@ -4701,7 +4701,7 @@ function library:CreateSettingsTab(menu)
     end})
     
     mainSection:AddButton({text = 'Copy Discord', flag = 'copydiscord', callback = function()
-        setclipboard('https://discord.gg/'..getgenv().Config.Invite)
+        setclipboard('https://discord.gg/4xt'..getgenv().Config.Invite)
     end})
 
     mainSection:AddButton({text = 'Rejoin Server', confirm = true, callback = function()
